@@ -1,4 +1,4 @@
-public class Circle extends Shape{
+public class Circle extends Shape implements Area{
     private double radius;
     public Circle(double radius, String name) {
 	super(name);
